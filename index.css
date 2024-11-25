@@ -1,0 +1,34 @@
+    /* 初始化 */
+    * {
+      margin: 0;
+      padding: 0;
+      color: #9fb2bf;
+      font-weight: normal;
+      font-size: 120%;
+      text-align: center;
+    }
+
+    body {
+      height: 100%;
+      background-color: rgb(33, 37, 43);
+    }
+
+    /* 定义头像大小 */
+    .touxiangdaxiao {
+      width: 10%;
+      height: 10%;
+    }
+
+    /* 设置头像居中 */
+    .center-container {
+      text-align: center;
+    }
+
+    .textleft {
+      text-align: left;
+    }
+
+    .baiscsize {
+      margin: auto 60% auto 60%;
+      background-color: aqua;
+    }
