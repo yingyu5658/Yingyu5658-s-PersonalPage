@@ -2,10 +2,11 @@
     * {
       margin: 0;
       padding: 0;
-      color: #9fb2bf;
+      color: rgb(5, 15, 19);
       font-weight: normal;
-      font-size: 120%;
+      font-size: 110%;
       text-align: center;
+      line-height: 60px;
     }
 
     body {
@@ -31,4 +32,65 @@
     .baiscsize {
       margin: auto 60% auto 60%;
       background-color: aqua;
+    }
+
+    /* 页脚配置 */
+    .footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+    }
+
+    /* 背景图片配置 */
+    .backgroundimage {
+      background-image: url(https://cdn.jsdelivr.net/gh/yingyu5658/tc@main/myblog/back.png);
+      padding: 0;
+      margin: 0;
+      background-attachment: fixed;
+      text-align: center;
+      background-size: cover;
+    }
+
+    /* 标题字体 */
+    .title {
+      font-weight: bold;
+    }
+
+    /* 分割线字体 */
+    .fengexianziti {
+      font-weight: normal;
+      text-align: center;
+      font-size: 70px;
+    }
+
+    /* 鼠标选中的链接字体 */
+    a:hover {
+      background-color: rgb(245, 217, 95);
+      color: rgb(66, 54, 77);
+    }
+
+    /* 鼠标点击时的字体 */
+    a:active {
+      color: aqua;
+    }
+
+    /* 取消a链接下划线 */
+    a {
+      text-decoration: none;
+    }
+
+    footer a {
+      color: antiquewhite;
+    }
+
+
+    h1:hover {
+      color: rgb(5, 15, 19);
+      background-color: rgb(245, 217, 95);
+    }
+
+    p:hover {
+      color: rgb(5, 15, 19);
+      background-color: rgb(245, 217, 95);
     }
