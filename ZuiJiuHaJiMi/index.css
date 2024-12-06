@@ -1,0 +1,38 @@
+* {
+  font-family: Mi;
+}
+
+
+/* 顶部介绍 */
+.TopIntroduce {
+  height: 880px;
+  background-color: rgb(165, 170, 175);
+  background-image: url(http://www.yingyu5658.cn/usr/uploads/2024/12/1280508906.png);
+  background-size: auto 20%;
+
+}
+
+/* 顶部文字 */
+.topText {
+  color: rgb(103, 1, 112);
+  margin-left: 10%;
+  padding-top: 4%;
+  font-size: 560%;
+  line-height: 20px;
+}
+
+/* 介绍 */
+.introduce {
+  border-radius: 25px;
+  width: 20%;
+  height: 80%;
+  margin-left: 20%;
+  text-align: center;
+  background: linear-gradient(to right, rgb(90, 219, 176), rgb(87, 76, 238));
+  transition: width 0.8s;
+  /* background-color: aqua; */
+}
+
+.introduce:hover {
+  width: 30%;
+}
